@@ -1,0 +1,6 @@
+@Web_Api_Football_SPR311_HostAddress = http://localhost:5297
+
+GET {{Web_Api_Football_SPR311_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
