@@ -1,7 +1,6 @@
 using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
 
-namespace Web_Api_Football_SPR311.Models;
+namespace Data.Models;
 
 public class Player
 {

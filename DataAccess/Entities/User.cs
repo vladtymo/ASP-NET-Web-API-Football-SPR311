@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace Web_Api_Football_SPR311.Models;
+namespace Data.Models;
 
 public class User : IdentityUser
 {

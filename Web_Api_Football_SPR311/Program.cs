@@ -1,13 +1,14 @@
 using System.Reflection;
+using Core;
+using Core.Interfaces;
+using Data;
+using Data.Models;
 using FluentValidation;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Web_Api_Football_SPR311;
-using Web_Api_Football_SPR311.Data;
 using Web_Api_Football_SPR311.Extensions;
 using Web_Api_Football_SPR311.Interfaces;
-using Web_Api_Football_SPR311.Models;
 using Web_Api_Football_SPR311.Validations;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using System.Reflection;
-using Web_Api_Football_SPR311.Models;
+using Data.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Web_Api_Football_SPR311.Extensions
 {

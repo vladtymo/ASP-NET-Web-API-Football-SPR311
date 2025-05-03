@@ -1,4 +1,4 @@
-namespace Web_Api_Football_SPR311.Models;
+namespace Data.Models;
 
 public class Team
 {

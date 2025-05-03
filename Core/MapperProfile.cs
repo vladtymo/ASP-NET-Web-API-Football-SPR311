@@ -1,8 +1,8 @@
 using AutoMapper;
+using Data.Models;
 using Web_Api_Football_SPR311.Dtos;
-using Web_Api_Football_SPR311.Models;
 
-namespace Web_Api_Football_SPR311;
+namespace Core;
 
 public class MapperProfile : Profile
 {

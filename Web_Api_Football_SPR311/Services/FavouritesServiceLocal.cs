@@ -1,9 +1,9 @@
-using Web_Api_Football_SPR311.Data;
+using Data;
+using Data.Models;
 using Web_Api_Football_SPR311.Extensions;
 using Web_Api_Football_SPR311.Interfaces;
-using Web_Api_Football_SPR311.Models;
 
-namespace Web_Api_Football_SPR311;
+namespace Core;
 
 public class FavouritesServiceLocal : IFavoriteService
 {

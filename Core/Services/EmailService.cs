@@ -1,10 +1,11 @@
+using Core.Interfaces;
 using Mailjet.Client;
 using Mailjet.Client.Resources;
-using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Linq;
 using Web_Api_Football_SPR311.Helpers;
 
-namespace Web_Api_Football_SPR311;
+namespace Core;
 
 public class EmailService : IEmailSender
 {

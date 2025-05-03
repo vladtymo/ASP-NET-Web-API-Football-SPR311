@@ -1,10 +1,9 @@
+using Data.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-//using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
-using Web_Api_Football_SPR311.Models;
 
-namespace Web_Api_Football_SPR311.Data;
+namespace Data;
 
 public class FootballDbContext : IdentityDbContext<User>
 {

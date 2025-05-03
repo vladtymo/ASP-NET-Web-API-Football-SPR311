@@ -1,4 +1,4 @@
-using Web_Api_Football_SPR311.Models;
+using Data.Models;
 
 namespace Web_Api_Football_SPR311.Interfaces;
 
