@@ -1,15 +1,14 @@
 using System.Reflection;
 using Core;
+using Core.Extensions;
 using Core.Interfaces;
+using Core.Validations;
 using Data;
 using Data.Models;
 using FluentValidation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Web_Api_Football_SPR311;
-using Web_Api_Football_SPR311.Extensions;
-using Web_Api_Football_SPR311.Interfaces;
-using Web_Api_Football_SPR311.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,7 +46,7 @@ builder.Services.AddScoped<IFavoriteService>(provider =>
         return provider.GetRequiredService<FavouritesServiceLocal>();
 });
 
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);
 builder.Services.AddValidatorsFromAssemblyContaining<CreateTeamValidation>();
 
 builder.Services.AddHttpContextAccessor();

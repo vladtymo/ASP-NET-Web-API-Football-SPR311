@@ -1,11 +1,10 @@
 using AutoMapper;
+using Core.Dtos;
 using Data;
 using Data.Models;
 using FluentValidation;
 using FluentValidation.Results;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Web_Api_Football_SPR311.Dtos;
 
 namespace Web_Api_Football_SPR311.Controllers
 {

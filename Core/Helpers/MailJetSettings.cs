@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Web_Api_Football_SPR311.Helpers
+namespace Core.Helpers
 {
     public class MailJetSettings
     {

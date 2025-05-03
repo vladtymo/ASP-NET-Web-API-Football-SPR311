@@ -3,7 +3,7 @@ using System.Reflection;
 using Data.Models;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Web_Api_Football_SPR311.Extensions
+namespace Core.Extensions
 {
     public static class Roles
     {

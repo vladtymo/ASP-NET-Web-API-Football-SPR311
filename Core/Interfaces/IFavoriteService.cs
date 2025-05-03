@@ -1,6 +1,6 @@
 using Data.Models;
 
-namespace Web_Api_Football_SPR311.Interfaces;
+namespace Core.Interfaces;
 
 public interface IFavoriteService
 {

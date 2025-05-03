@@ -1,9 +1,9 @@
+using Core.Helpers;
 using Core.Interfaces;
 using Mailjet.Client;
 using Mailjet.Client.Resources;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Linq;
-using Web_Api_Football_SPR311.Helpers;
 
 namespace Core;
 

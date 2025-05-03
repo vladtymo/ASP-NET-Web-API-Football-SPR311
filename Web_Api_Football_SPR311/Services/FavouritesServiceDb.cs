@@ -1,9 +1,8 @@
 using System.Security.Claims;
+using Core.Interfaces;
 using Data;
 using Data.Models;
 using Microsoft.EntityFrameworkCore;
-using Web_Api_Football_SPR311.Extensions;
-using Web_Api_Football_SPR311.Interfaces;
 
 namespace Web_Api_Football_SPR311;
 

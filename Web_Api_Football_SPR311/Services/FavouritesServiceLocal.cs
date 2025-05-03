@@ -1,7 +1,7 @@
+using Core.Extensions;
+using Core.Interfaces;
 using Data;
 using Data.Models;
-using Web_Api_Football_SPR311.Extensions;
-using Web_Api_Football_SPR311.Interfaces;
 
 namespace Core;
 

@@ -1,6 +1,6 @@
 using AutoMapper;
+using Core.Dtos;
 using Data.Models;
-using Web_Api_Football_SPR311.Dtos;
 
 namespace Core;
 

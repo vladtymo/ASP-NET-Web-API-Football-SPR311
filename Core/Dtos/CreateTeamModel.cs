@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Web_Api_Football_SPR311.Dtos;
+namespace Core.Dtos;
 
 public class CreateTeamModel
 {

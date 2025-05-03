@@ -1,7 +1,7 @@
+using Core.Dtos;
 using FluentValidation;
-using Web_Api_Football_SPR311.Dtos;
 
-namespace Web_Api_Football_SPR311.Validations;
+namespace Core.Validations;
 
 public class CreateTeamValidation : AbstractValidator<CreateTeamModel> 
 {

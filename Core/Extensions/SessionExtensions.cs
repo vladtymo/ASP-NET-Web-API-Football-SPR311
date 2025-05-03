@@ -1,6 +1,8 @@
 using System.Text.Json;
+// using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 
-namespace Web_Api_Football_SPR311.Extensions;
+namespace Core.Extensions;
 
 public static class SessionExtensions
 {
